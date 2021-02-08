@@ -1,7 +1,7 @@
 {
   "name": "dice-tray",
   "title": "Dice Tray",
-  "description": "Implements an interactive dice tray below the chat window, along with interactable roll messages.",
+  "description": "Implements an interactive dice tray below the chat window, along with interactive roll messages.",
   "version": "1.0",
   "author": "Adeptism",
   "minimumCoreVersion": "0.7.9",
