@@ -3,7 +3,7 @@
   "title": "Dice Tray",
   "description": "Implements an interactive dice tray below the chat window along with interactable roll messages.",
   "version": "1.0",
-  "author": "...",
+  "author": "Adeptism",
   "minimumCoreVersion": "0.7.9",
   "compatibleCoreVersion": "0.7.9",
   "scripts": ["./scripts/dice-tray.js", "./scripts/roll-display.js"],
@@ -14,5 +14,8 @@
       "name": "English",
       "path": "lang/en.json"
     }
-  ]
+  ],
+  "url": "https://github.com/Adeptism/dice-tray",
+  "manifest": "https://raw.githubusercontent.com/Adeptism/dice-tray/main/module.json",
+  "download": "https://github.com/Adeptism/dice-tray/archive/main.zip"
 }
