@@ -1,0 +1,22 @@
+.roll-button {
+  width: 30px !important;
+  line-height: 30px !important;
+  margin-right: 4px !important;
+  background-size: 30px 30px !important;
+  font-size: 18px !important;
+}
+
+.roll-button:nth-of-type(8n) {
+  margin-left: 1px !important;
+}
+
+.roll-button-click {
+  cursor: pointer;
+}
+.roll-button-click:hover, .roll-button-click:focus {
+  filter: drop-shadow(2px 2px 2px #000000);
+}
+
+.roll-button__flag {
+  filter: sepia(0.5) contrast(0.75) opacity(0.4);
+}

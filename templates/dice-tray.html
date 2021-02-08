@@ -1,0 +1,10 @@
+<section class="dice-tray">
+  <div class="dice-tray__buttons flexrow">
+    {{#each dice as |_ key|}}
+      <button class="dice-tray__button" data-key="{{key}}" title="{{key}}"><span class="dice-tray__flag dice-tray__flag--{{key}} hide"></span>{{> (dtSvgDie key) }}</button>
+    {{/each}}
+  </div>
+  <div class="dice-tray__buttons flexrow">
+    <button class="dice-tray__roll">{{localize "DICE_TRAY.Roll"}}</button>
+  </div>
+</section>

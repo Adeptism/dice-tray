@@ -1,0 +1,15 @@
+<div class="dice-tooltip">
+  <section class="tooltip-part">
+    <div class="dice">
+      <header class="part-header flexrow">
+        <span class="part-formula">{{formula}}</span>
+        <span class="part-total" data-key="{{total}}">{{total}}</span>
+      </header>
+      <ol class="dice-rolls">
+        {{#each dice}}
+          <li class="roll-button {{this.id}} roll {{this.classes}}" data-key="{{this.id}}">{{this.result}}</li>
+        {{/each}}
+      </ol>
+    </div>
+  </section>
+</div>
